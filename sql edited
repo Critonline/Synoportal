@@ -1,0 +1,13 @@
+-- Gegevens worden uitgevoerd voor tabel `intralinks`
+--
+
+INSERT INTO `intralinks` (`id`, `http`, `ip`, `port`, `title`, `description`, `ordering`) VALUES
+(0, 'http://', 'vosys', ':5000', 'Download Station', 'Download Station', 0),
+(1, 'http://', 'vosys', ':5000', 'Disk Station Manager', 'Disk Station Manager', 1),
+(2, 'http://', '', '', 'Audio Station', 'Audio Station', 2),
+(3, 'http://', '', '', 'File Station', 'File Station', 3),
+(4, 'http://', '', '', 'Photo Station', 'Photo Station', 4);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
